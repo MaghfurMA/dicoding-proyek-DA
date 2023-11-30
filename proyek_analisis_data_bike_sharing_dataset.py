@@ -165,13 +165,13 @@ sns.heatmap(hour.corr(numeric_only=True), annot=True)
 
 """Terdapat korelasi sedang antara variable hr, temp dan atemp terhadap jumlah pengendara (sekitar 0.4)"""
 
-!pip install streamlit
+#!pip install streamlit
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
-# import streamlit as st
+import streamlit as st
 
-!streamlit run app.py & npx localtunnel --port 8501
+#!streamlit run app.py & npx localtunnel --port 8501
 
 """#Penutup
 
